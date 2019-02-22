@@ -6,4 +6,5 @@ class String
   
   def question?
     self[-1] == "?"
+  end
 end
