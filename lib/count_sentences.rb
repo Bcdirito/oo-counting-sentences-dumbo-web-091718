@@ -11,4 +11,8 @@ class String
   def exclamation?
     self[-1] == "!"
   end
+  
+  def count_sentences
+    self
+  end
 end
