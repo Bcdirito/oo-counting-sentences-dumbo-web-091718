@@ -1,6 +1,6 @@
 class String
   
   def sentence?
-    String[-1] == "."
+    self[-1] == "."
   end
 end
