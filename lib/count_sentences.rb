@@ -17,8 +17,7 @@ class String
   def count_sentences
     n = 0
     self.split(/[.!?]/).each do |i|
-      binding.pry
-      i.length > 0
+      if i.length > 0 n += 1
     end
     n
   end
