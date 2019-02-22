@@ -15,6 +15,10 @@ class String
   end
   
   def count_sentences
-    self.split(/[.!?]/).count
+    n = 0
+    self.split(/[.!?]/).each do |i|
+      binding.pry
+    end
+    n
   end
 end
