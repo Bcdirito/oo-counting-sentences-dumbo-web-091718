@@ -18,6 +18,7 @@ class String
     n = 0
     self.split(/[.!?]/).each do |i|
       binding.pry
+      i.length > 0
     end
     n
   end
