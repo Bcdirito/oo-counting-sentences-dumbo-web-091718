@@ -9,5 +9,6 @@ class String
   end
   
   def exclamation?
-    slef[-1] == "!"
+    self[-1] == "!"
+  end
 end
