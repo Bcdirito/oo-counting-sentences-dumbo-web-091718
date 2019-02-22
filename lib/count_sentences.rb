@@ -13,6 +13,6 @@ class String
   end
   
   def count_sentences
-    self
+    split_arr = self.split()
   end
 end
